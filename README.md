@@ -6,11 +6,17 @@ Student Number: 100485
 Course: BBT 2202 – Advanced Object Oriented Programming  
 
 PROJECT DESCRIPTION  
-A beginner-friendly JavaFX + PostgreSQL + JDBC application that allows a user to:
+JavaFX + PostgreSQL + JDBC application that allows a user to:
 - Add products (name, quantity, price)  
 - Load and view all products in a TableView  
 - Update stock quantity for an existing product  
-- See a product name shown in red when its quantity is 0  
+- See a product name shown in red when its quantity is 0
+
+Additionally
+- CSS styling to the JavaFX scene.
+- delete product functionality.
+- search by product name.
+- stronger validation, such as preventing negative values.
 
 TECHNOLOGIES  
 - Java (plain, no Maven / no Gradle)  
@@ -30,7 +36,7 @@ src/com/inventory/
 sql/schema.sql        - database and table setup  
 libs/                 - JavaFX and PostgreSQL JDBC jars  
 
-CLASS EXPLANATIONS (BEGINNER)  
+CLASS EXPLANATIONS 
 Item.java – Parent class with id and name. Defines getDisplayInfo() that child classes can override.  
 
 Product.java – Extends Item. Adds quantity and price using JavaFX properties so the TableView can display them. Overrides getDisplayInfo() to demonstrate polymorphism.  
@@ -73,15 +79,6 @@ java --module-path libs --add-modules javafx.controls -cp "out:libs/postgresql-4
 
 A helper script run.sh can perform both steps  
 
-RUN IN INTELLIJ IDEA  
-1. Open the project folder in IntelliJ  
-2. Set Project SDK to Java 17 or higher  
-3. Add all jars in libs/ as libraries  
-4. Mark src as Sources Root  
-5. Create a Run Configuration:  
-   Main class: com.inventory.Main  
-   VM options: --module-path libs --add-modules javafx.controls  
-6. Click Run  
 
 VALIDATION RULES  
 - Product name cannot be empty  
