@@ -13,8 +13,6 @@ I chose the inventory project because it uses:
 - One simple table (products)
 - One main entity (Product)
 - A clear JavaFX + JDBC flow
-
-This makes it easy to explain while still meeting all project requirements:
 - Object-Oriented Programming (OOP)
 - Generics
 - Exception handling
@@ -62,11 +60,11 @@ This makes it easy to explain while still meeting all project requirements:
 - Try-with-resources safely handles JDBC resource closing
 
 8. DEMO SCRIPT
-1. Enter Sugar, 10, 120 → Click Save Product
-2. Click Load Products → Sugar appears
-3. Add Rice, 0, 200 → Save Product
-4. Load Products → Rice appears in red
-5. Update Sugar quantity to 0 → it turns red
+1. Enter Mouse, 10, 120 → Click Save Product
+2. Click Load Products → Mouse appears
+3. Add USB, 0, 200 → Save Product
+4. Load Products → USB appears in red
+5. Update Mouse quantity to 0 → it turns red
 6. Try invalid input → red validation message appears
 
 9. CLOSING STATEMENT
