@@ -1,0 +1,9 @@
+com\university\registration\model\Student.class
+com\university\registration\db\DBConnection.class
+module-info.class
+com\university\registration\MainApp.class
+com\university\registration\dao\StudentDAO.class
+com\university\registration\service\ValidationRule.class
+com\university\registration\service\StudentService.class
+com\university\registration\exception\ValidationException.class
+com\university\registration\model\Person.class

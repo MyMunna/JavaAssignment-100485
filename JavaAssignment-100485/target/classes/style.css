@@ -1,0 +1,69 @@
+.root {
+    -fx-font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.app-shell {
+    -fx-background-color: linear-gradient(to bottom, #f8fbff, #eef4f8);
+}
+
+.student-info-label {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1d4ed8;
+    -fx-background-radius: 8;
+    -fx-padding: 8 12;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.title-label {
+    -fx-text-fill: #0f172a;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.form-grid {
+    -fx-background-color: white;
+    -fx-padding: 20;
+    -fx-background-radius: 12;
+    -fx-border-color: #d0d5dd;
+    -fx-border-radius: 12;
+}
+
+.text-field {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #cbd5e1;
+    -fx-padding: 8 10;
+}
+
+.button {
+    -fx-background-radius: 8;
+    -fx-padding: 9 16;
+    -fx-font-weight: bold;
+}
+
+.primary-button {
+    -fx-background-color: #0f766e;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d0d5dd;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e2e8f0;
+}
+
+.message-success {
+    -fx-text-fill: #027a48;
+    -fx-font-weight: bold;
+}
+
+.message-error {
+    -fx-text-fill: #b42318;
+    -fx-font-weight: bold;
+}
